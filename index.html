@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Interest Form</title>
+</head>
+<body>
+    <h1>Employee Interests Survey Form</h1>
+    <form method="post" action="adfjklas.fdsa">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" size="25" required>
+        <br>
+        <br>
+        <label for="dept">Department:</label>
+        <input name="dept" id="dept" type="text" placeholder="Enter your department" size="35" required> 
+        <br>
+        <br>
+        <label for="aboutU">Tell us a little about yourself:</label>
+        <br>
+        <textarea name="aboutU" id="aboutU" cols="30" rows="8"></textarea>
+        <br>
+        <br>
+        <label for="exercise">Do you exercise at home?</label>
+        <input name="exercise" id="weDo" type="radio">Yes
+        <input name="exercise" id="weDont" type="radio">No
+        <br>
+        <br>
+        <label for="favTopics">How do you like to read about your favorite topics?</label> <br> <br>
+        <input name="favTopics" id="phone" type="checkbox">Phone Apps
+        <input name="favTopics" id="online" type="checkbox">Online
+        <input name="favTopics" id="books" type="checkbox">Books
+        <input name="favTopics" id="magazines" type="checkbox">Magazines
+        <br>
+        <br>
+        <label for="favGenre">What is your favorite movie genre?</label>
+        <select name="favGenre" id="favGenre">
+            <option value="noneSelected">Choose...</option>
+            <option value="horror">Horror</option>
+            <option value="comedy">Comedy</option>
+            <option value="romance">Romance</option>
+            <option value="documentary">Documentary</option>
+            <option value="sci-fi">Sci-fi</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
